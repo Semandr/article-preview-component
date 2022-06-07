@@ -3,3 +3,24 @@ body {
   font-size: 1.3rem;
   background: var(--clr-light-grayish-blue);
 }
+.title {
+  font-weight: 700;
+  color: var(--clr-very-dark-grayish-blue);
+  &__primary {
+  }
+
+  &__secondary {
+  }
+}
+.text {
+  font-weight: 500;
+  color: var(--clr-very-dark-grayish-blue);
+  &__article {
+  }
+
+  &__author-name {
+  }
+
+  &__publication-date {
+  }
+}

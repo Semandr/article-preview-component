@@ -1,0 +1,44 @@
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 3rem var(--clr-grayish-blue);
+  overflow: hidden;
+
+  margin: 0 auto;
+
+  height: 82vh;
+  width: 32.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 3rem;
+
+  &__content {
+  }
+}
+.imgBx {
+  &__item {
+    width: 100%;
+  }
+}
+
+.article {
+}
+
+.authorBx {
+  &__info {
+  }
+
+  &__photo {
+  }
+
+  &__publication {
+  }
+}
+
+.shareBx {
+  &__list {
+  }
+
+  &__item {
+  }
+}
