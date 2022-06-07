@@ -1,12 +1,8 @@
-// .container {
-//   min-height: 100vh;
-//   overflow: hidden;
-//   padding: 2rem 1rem; // for secutiry
-
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-// }
+.container {
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 4rem 2rem; // for secutiry
+}
 .visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
