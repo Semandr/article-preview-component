@@ -3,48 +3,73 @@
   border-radius: 1rem;
   box-shadow: 0 1rem 3rem var(--clr-grayish-blue);
   overflow: hidden;
-
-  max-height: 54rem;
-  width: 32.5rem;
   display: grid;
-  grid-template-columns: 1fr;
-  row-gap: 3rem;
+  gap: 3rem;
 
   &__content {
     padding: 0 3rem;
     display: flex;
     flex-direction: column;
     gap: 1.7rem;
+
+    grid-area: content;
   }
 }
 .imgBx {
   &__item {
+    height: 100%;
     width: 100%;
-    height: 20rem;
+    object-fit: cover;
+  }
+  grid-area: img;
+}
+
+@media screen and(max-width: 50rem) {
+  .card {
+    max-height: 52rem;
+    width: 32.5rem;
+    grid-template-areas:
+      'img'
+      'content'
+      'author';
+  }
+  .imgBx {
+    max-height: 20rem;
+  }
+}
+@media screen and(min-width: 50.01rem) {
+  .card {
+    max-height: 28rem;
+    width: 73rem;
+    grid-template-columns: 28.5rem 1fr;
+    grid-template-areas:
+      'img content'
+      'img author';
+
+    row-gap: 2rem;
+  }
+  .card__content {
+    padding-top: 3rem;
   }
 }
 
 .authorBx {
-  height: 6.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 3rem 1.5rem;
+
+  grid-area: author;
+
   &__info {
     display: flex;
     align-items: center;
     gap: 1.5rem;
   }
 
-  // dev
-  // background: var(--clr-very-dark-grayish-blue);
-
   &__photo {
     max-height: 3.5rem;
     border-radius: 50%;
-  }
-
-  &__publication {
   }
 }
 
