@@ -15,8 +15,9 @@ body {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: var(--clr-grayish-blue);
+    margin: 0 0.5rem 0.5rem 0;
   }
 }
 .text {
@@ -27,8 +28,5 @@ body {
     font-weight: 700;
     line-height: 1.4;
     color: var(--clr-very-dark-grayish-blue);
-  }
-
-  &__publication-date {
   }
 }
