@@ -2,36 +2,4 @@
   display: inline-block;
   cursor: pointer;
   transition: all 0.4s ease;
-  &__share {
-    border: none;
-    border-radius: 50%;
-    width: 3.5rem;
-    height: 3.5rem;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-
-    z-index: 10;
-  }
-  &__social {
-    &:hover {
-      background-color: beige;
-    }
-  }
-}
-.icon {
-  &__arrow {
-  }
-
-  &__fb {
-  }
-
-  &__tw {
-  }
-
-  &__pn {
-  }
 }
