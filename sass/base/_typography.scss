@@ -10,23 +10,8 @@ body {
   &__primary {
     font-size: clamp(1.6rem, 1.65rem, 2.5rem);
   }
-
-  &__secondary {
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 500;
-    font-size: 1.4rem;
-    color: var(--clr-grayish-blue);
-    margin: 0 0.5rem 0.5rem 0;
-  }
 }
 .text {
   font-weight: 500;
   color: var(--clr-desaturated-dark-blue);
-
-  &__author-name {
-    font-weight: 700;
-    line-height: 1.4;
-    color: var(--clr-very-dark-grayish-blue);
-  }
 }
